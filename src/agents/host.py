@@ -1,7 +1,7 @@
 import re
 from .base_agent import Agent
 from utils.register import register_class, registry
-
+import json
 
 @register_class(alias="Agent.Host.GPT")
 class Host(Agent):
@@ -30,6 +30,17 @@ class Host(Agent):
         else: self.system_message = host_info
 
         super(Host, self).__init__(engine)
+
+        self.longcontextengine = registry.get_class("Engine.LiteLLM")(
+            openai_api_key=args.host_openai_api_key, 
+            openai_api_base=args.host_openai_api_base,
+            openai_model_name="anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1", 
+            temperature=args.host_temperature, 
+            max_tokens=args.host_max_tokens,
+            top_p=args.host_top_p,
+            frequency_penalty=args.host_frequency_penalty,
+            presence_penalty=args.host_presence_penalty
+        )
 
     @staticmethod
     def add_parser_args(parser):
@@ -462,6 +473,8 @@ class Host(Agent):
         symptom_and_examination = self.engine.get_response(messages)
         return symptom_and_examination
 
+########################################################################### Hostp26 ################################################################################
+
 @register_class(alias="Agent.Hostp26.GPT")
 class Hostp26(Agent):
     def __init__(self, args, host_info=None):
@@ -489,6 +502,17 @@ class Hostp26(Agent):
         else: self.system_message = host_info
 
         super(Hostp26, self).__init__(engine)
+
+        self.longcontextengine = registry.get_class("Engine.LiteLLM")(
+            openai_api_key=args.host_openai_api_key, 
+            openai_api_base=args.host_openai_api_base,
+            openai_model_name="anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1", 
+            temperature=args.host_temperature, 
+            max_tokens=args.host_max_tokens,
+            top_p=args.host_top_p,
+            frequency_penalty=args.host_frequency_penalty,
+            presence_penalty=args.host_presence_penalty
+        )
 
     @staticmethod
     def add_parser_args(parser):
@@ -532,11 +556,20 @@ class Hostp26(Agent):
 
         if self.translate:
             for i, doctor in enumerate(doctors):
+                from agents.prompt_templates.principles.thought import system_prompt_spr
+                dialog = json.dumps(doctor.dialog[patient.id])
+                messages_spr = [{"role": "system", "content": system_prompt_spr},
+                    {"role": "user", "content": dialog}]
+                
+                # dialog_spr = self.longcontextengine.get_response(messages_spr)
+                # print(dialog_spr, messages_spr)
+                dialog_spr = ""
                 diagnosis_by_different_doctors += \
                     "##Doctor{}##\n\n".format(int_to_char[i]) + \
                     "#Diagnosis#\n{}\n\n".format(doctor.get_diagnosis_by_patient_id(patient.id, key="Diagnosis", translate=self.translate)) + \
                     "#Diagnostic Basis#\n{}\n\n".format(doctor.get_diagnosis_by_patient_id(patient.id, key="Diagnostic Basis", translate=self.translate)) + \
-                    "#Treatment Plan#\n{}\n\n".format(doctor.get_diagnosis_by_patient_id(patient.id, key="Treatment Plan", translate=self.translate)) 
+                    "#Treatment Plan#\n{}\n\n".format(doctor.get_diagnosis_by_patient_id(patient.id, key="Treatment Plan", translate=self.translate)) + \
+                    "#Dialog History#\n{}".format(dialog_spr)
 
             # build system message
             doctor_names = ["##Doctor{}##".format(int_to_char.get(i)) for i, _ in enumerate(doctors)]
@@ -640,6 +673,9 @@ class Hostp26(Agent):
                 "#诊断依据#\n(1) xxx\n(2) xxx\n\n" + \
                 "#治疗方案#\n(1) xxx\n(2) xxx\n"
         # run engine
+
+
+
         messages = [{"role": "system", "content": system_message},
             {"role": "user", "content": diagnosis_by_different_doctors}]
         diagnosis = self.engine.get_response(messages)
@@ -857,12 +893,24 @@ class Hostp26(Agent):
 
         if self.translate:
             for i, doctor in enumerate(doctors):
+
+                from agents.prompt_templates.principles.thought import system_prompt_nonspr
+                dialogjson = json.loads(doctor.dialog[patient.id])
+                dialog = "The following is the conversation between a patient, a doctor and potentially and examiner/reporter.: " + json.dumps(dialogjson[:-1])
+                messages_spr = [{"role": "system", "content": system_prompt_nonspr},
+                    {"role": "user", "content": dialog}]
+                dialog_spr = self.longcontextengine.get_response(messages_spr)
+                print(">>>>>>>>>>>>> SPR >>>>>>>>>>>>>>>>>",dialog_spr,"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+                print(messages_spr)
+                doctor.dialog_summarized[patient.id] = dialog_spr
+            
                 symptom_and_examination_by_diff_doctors += "##Doctor{}##\n".format(int_to_char[i])
                 for key in ["Symptoms", "Auxiliary Examinations"]:
                     value = doctor.get_diagnosis_by_patient_id(patient.id, key=key,translate=self.translate)
                     if value is not None:
                         symptom_and_examination_by_diff_doctors += "#{}#\n{}\n\n".format(key, value)
-
+                
+                symptom_and_examination_by_diff_doctors += "#Medical transcript of consultation#{}\n\n".format(dialog_spr)
             doctor_names = ["##Doctor{}##".format(int_to_char.get(i)) for i, doctor in enumerate(doctors)]
             if len(doctor_names) > 2:
                 doctor_names = "、".join(doctor_names[:-2]) + "、" + doctor_names[-2] + " and " + doctor_names[-1]

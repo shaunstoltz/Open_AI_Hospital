@@ -238,7 +238,7 @@ class Consultation:
             "reporter_engine_name": self.reporter.engine.model_name,
             "dialog_history": dialog_history,
             "time": self.start_time,
-            "doctor_memories": self.doctor.memories,
+            "doctor_memories": self.doctor.memories[patient.id],
             "patient_memories": patient.memories
         }
         self.save_dialog_info(dialog_info)

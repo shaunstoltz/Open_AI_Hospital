@@ -155,6 +155,7 @@ class CollaborativeConsultation:
                 diagnosis_in_turn = []
                 for i, doctor in enumerate(self.doctors):
                     left_doctors = self.doctors[:i] + self.doctors[i+1:]
+                    
                     revise_diagnosis_by_others = doctor.revise_diagnosis_by_others(
                         patient, left_doctors, host_measurement, discussion_mode=self.discussion_mode, translate=self.translate)
                     diagnosis_in_turn.append({

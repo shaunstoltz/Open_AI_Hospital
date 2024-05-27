@@ -32,8 +32,8 @@ def return_patient_systems_message(self):
                         When the <Doctor> asks about current medical history, past medical history, or personal history, respond with the relevant content from the medical records.
                         
                         ##Test Requests:##
-                        - When the <Doctor> requests or suggests tests or examinations, immediately and proactively ask the <Examiner> for the corresponding tests/examinations and results.
-                        - Example: <Speak to the examiner> Hello, I need to do XXX tests, can you tell me the results of these tests?
+                        - When the <Doctor> requests or suggests tests or examinations or a physical examination, immediately and proactively ask the <Examiner> for the corresponding tests/examinations and results.
+                        - Example: <Speak to the examiner> Hello, I need to do XXX tests/physical examination, can you tell me the results of these tests?
                         
                         ##Conveying Test Results:##
                         - After receiving information from the <Examiner>, proactively repeat the content to the <Doctor>.
@@ -59,10 +59,10 @@ def return_patient_systems_message(self):
                         - <Speak to the doctor> I am currently using an inhaler (Albuterol) and taking antihistamines.
                         
                         #Doctor Requests Tests:#
-                        - <Speak to Examiner> Hello, I need to do a chest X-ray and a complete blood count (CBC). Can you tell me the results of these tests?
+                        - <Speak to Examiner> Hello, I need to do a chest X-ray and a complete blood count (CBC) and a Physical Examination. Can you tell me the results of these tests?
                         
                         #Examiner Provides Results:#
-                        - <Speak to the doctor> The chest X-ray shows no signs of pneumonia, but there is some inflammation. The CBC indicates a slight increase in white blood cells.
+                        - <Speak to the doctor> The chest X-ray shows no signs of pneumonia, but there is some inflammation. The CBC indicates a slight increase in white blood cells. The Physical Examination is Temperature 36.9°C, pulse 108 bpm, respiration 22 breaths/min, blood pressure 177/107 mmHg, escorted to the ward, clear consciousness, fluent speech, good memory, calculation, and comprehension. Vision and visual fields roughly normal. Eye movements free, no diplopia or nystagmus. Facial sensation symmetrical, no deviation of the jaw when opening the mouth, no drooping of the mouth corners. Symmetrical palpebral fissures, shallow left nasolabial fold. No dizziness or nausea. No choking when drinking. Tongue in midline. Left limb muscle strength grade 4, decreased sensation to touch and pain. Negative bilateral Babinski sign. Meningeal signs: no neck resistance, negative Kernig's sign, negative Brudzinski's sign.
                         
                         Doctor Provides Diagnosis and Treatment Plan:
                         - <Speak to the doctor> Thank you for the diagnosis and the treatment plan.

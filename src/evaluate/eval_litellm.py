@@ -271,8 +271,10 @@ class Evaluator:
 
         self.doctor_name_to_diagnosis = {}
         for doctor_name, doctor_diagnosis_filepath in [
-                # ("mix22b_p26", "../outputs/dialog_history_iiyi/dialog_history_any_mix22b_p26_10convo_EN.jsonl"),
-                # ("llama370b_p26", "../outputs/dialog_history_iiyi/dialog_history_any_llama370b_p26_10convo_EN.jsonl"), 
+                ("mix22b_base", "../outputs/dialog_history_iiyi/dialog_history_any_mix22b_EN.jsonl"),
+                ("llama370b_base", "../outputs/dialog_history_iiyi/dialog_history_any_llama370b_EN.jsonl"), 
+                ("mix22b_p26", "../outputs/dialog_history_iiyi/dialog_history_any_mix22b_p26_10convo_EN.jsonl"),
+                ("llama370b_p26", "../outputs/dialog_history_iiyi/dialog_history_any_llama370b_p26_10convo_EN.jsonl"), 
                 # ("mix22b_past", "../outputs/dialog_history_iiyi/dialog_history_any_llama370b_p26_pasthistory_10convo_EN.jsonl"),
                 # ("llama370b_past", "../outputs/dialog_history_iiyi/dialog_history_any_llama370b_pasthistory_10convo_EN.jsonl"),    
                 ("mix22b_thinking", "../outputs/dialog_history_iiyi/dialog_history_any_mix22b_p26_pasthistory_10convo_thinking_EN.jsonl"),
@@ -315,9 +317,9 @@ class Evaluator:
 
         self.doctor_name_to_diagnosis = {}
         for doctor_name, doctor_diagnosis_filepath in [
-                ("2_Agent_mix22b_llama370b_Critique", "../outputs/collaboration_history_iiyi/doctors_2_agent_mix22b_llama370b_p26_parallel_with_critique_by_llama370b_p26prompt_discussion_history.jsonl"),
-                ("2_Agent_mix22b_llama370b_pasthistory_Critique", "../outputs/collaboration_history_iiyi/doctors_2_agent_mix22b_llama370b_p26_parallel_with_critique_by_llama370b_p26prompt_pasthistory_discussion_history.jsonl"),
-                ("2_Agent_mix22b_llama370b_pasthistory_thinking_Critique", "../outputs/collaboration_history_iiyi/doctors_2_agent_mix22b_llama370b_p26_parallel_with_critique_by_llama370b_p26prompt_pasthistory_thinking_discussion_history.jsonl"),
+                ("2_Agent_mix22b_llama370b_p26_Critique", "../outputs/collaboration_history_iiyi/doctors_2_agent_mix22b_llama370b_p26_parallel_with_critique_by_llama370b_p26prompt_10convo_discussion_history.jsonl"),
+                #("2_Agent_mix22b_llama370b_pasthistory_Critique", "../outputs/collaboration_history_iiyi/doctors_2_agent_mix22b_llama370b_p26_parallel_with_critique_by_llama370b_p26prompt_pasthistory_discussion_history.jsonl"),
+                #("2_Agent_mix22b_llama370b_pasthistory_thinking_Critique", "../outputs/collaboration_history_iiyi/doctors_2_agent_mix22b_llama370b_p26_parallel_with_critique_by_llama370b_p26prompt_pasthistory_thinking_discussion_history.jsonl"),
                 
                 # ("2_Agent_GPT3_GPT4_Critique", "../outputs/collaboration_history_iiyi/doctors_2_agent_gpt3_gpt4_parallel_with_critique_discussion_history.jsonl"),
 

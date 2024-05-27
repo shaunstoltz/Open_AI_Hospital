@@ -3,6 +3,7 @@ from utils.register import register_class, registry
 from collections import defaultdict
 import re
 import jsonlines
+import json
 from abc import abstractmethod
 from deep_translator import GoogleTranslator
 
@@ -44,6 +45,8 @@ class Doctor(Agent):
         def default_diagnosis_factory():
             return {}
         self.diagnosis = defaultdict(default_diagnosis_factory) 
+        self.dialog = defaultdict(default_diagnosis_factory)
+        self.dialog_summarized = defaultdict(default_diagnosis_factory)
 
     def get_response(self, messages):
         response = self.engine.get_response(messages)
@@ -87,6 +90,7 @@ class Doctor(Agent):
             if diagnosis_filepath.endswith("jsonl"):
                 with jsonlines.open(diagnosis_filepath, "r") as fr:
                     for line in fr:
+                        self.dialog[line["patient_id"]] = json.dumps(line["dialog_history"])
                         diagnosis = line["dialog_history"][-1]["content"]
                         self.load_diagnosis(diagnosis=diagnosis, patient_id=line["patient_id"], translate=translate)
                 fr.close()
@@ -387,12 +391,13 @@ class Doctor(Agent):
             
             content = ""
             for i, doctor in enumerate(doctors):
-                content += "##Doctor{}##\n\n#Diagnosis#\n{}\n\n#Diagnostic Basis#\n{}\n\n#Treatment Plan#\n{}\n\n".format(
+                content += "##Doctor{}##\n\n#Diagnosis#\n{}\n\n#Diagnostic Basis#\n{}\n\n#Treatment Plan#\n{}\n\n#Medical transcript of consultation#{}\n\n".format(
                     doctor.name,
                     doctor.get_diagnosis_by_patient_id(patient.id, key="Diagnosis", translate=translate), 
                     doctor.get_diagnosis_by_patient_id(patient.id, key="Diagnostic Basis", translate=translate), 
-                    doctor.get_diagnosis_by_patient_id(patient.id, key="Treatment Plan", translate=translate)
-                )
+                    doctor.get_diagnosis_by_patient_id(patient.id, key="Treatment Plan", translate=translate),
+                    doctor.dialog_summarized[patient.id]
+                    )
 
             content += "##Chief Doctor##\n{}".format(host_critique)
 
@@ -466,8 +471,8 @@ class GPTDoctor(Doctor):
 
         if args.approach == "p26":
             translator = GoogleTranslator(source='zh-CN', target='en')
-            from agents.prompt_templates.principles.doctor_prompts import system_prompt_base
-            self.system_message = system_prompt_base
+            from agents.prompt_templates.principles.doctor_prompts import system_prompt_base, system_prompt_base_2 
+            self.system_message = system_prompt_base_2
             self.doctor_greet = translator.translate(self.doctor_greet) 
 
 

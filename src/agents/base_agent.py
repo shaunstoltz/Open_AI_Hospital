@@ -26,6 +26,16 @@ class Agent(object):
             print (memory[1])
         print ()
 
+    def summarizewithspr(self, rawinput=""):
+        from agents.prompt_templates.principles.thought import system_prompt_spr
+
+        messages = [{"role": "system", "content": system_prompt_spr},
+            {"role": "user", "content": rawinput}]
+        spr_representation = self.engine.get_response(messages)
+
+        return spr_representation
+
+
     @abstractmethod
     def speak(self, message, save_to_memory=True):
         pass
