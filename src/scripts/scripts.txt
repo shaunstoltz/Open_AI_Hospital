@@ -1,0 +1,55 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>base approach<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+############### Doctor 1
+##any scale
+python run.py --patient_database ./data/patients.json --doctor Agent.Doctor.GPT --doctor_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --patient Agent.Patient.GPT --patient_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --reporter Agent.Reporter.GPT --reporter_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --save_path ./outputs/dialog_history_iiyi/dialog_history_any_llama370b_EN.jsonl --max_conversation_turn 10 --translate True --max_workers 4 --parallel 
+
+##petals
+python run.py --patient_database ./data/patients.json --doctor Agent.Doctor.GPT --doctor_openai_model_name petals/meta-llama/Meta-Llama-3-70B --patient Agent.Patient.GPT --patient_openai_model_name petals/meta-llama/Meta-Llama-3-70B --reporter Agent.Reporter.GPT --reporter_openai_model_name petals/meta-llama/Meta-Llama-3-70B --save_path ./outputs/dialog_history_iiyi/dialog_history_any_llama370b.jsonl --max_conversation_turn 10 --max_workers 4 --parallel
+
+
+############### Doctor 2
+##any scale
+python run.py --patient_database ./data/patients.json --doctor Agent.Doctor.GPT --doctor_openai_model_name anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1 --patient Agent.Patient.GPT --patient_openai_model_name anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1 --reporter Agent.Reporter.GPT --reporter_openai_model_name anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1 --save_path ./outputs/dialog_history_iiyi/dialog_history_any_mix22b_EN.jsonl --max_conversation_turn 10 --translate True --max_workers 4 --parallel
+
+
+#host is llama3
+python run.py --scenario Scenario.CollaborativeConsultation --patient_database ./data/patients.json --doctor_database ./data/collaborative_doctors/doctors.json --patient Agent.Patient.GPT --patient_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --reporter Agent.Reporter.GPT --reporter_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --host Agent.Host.GPT --host_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --number_of_doctors 2 --max_discussion_turn 4 --save_path ./outputs/collaboration_history_iiyi/doctors_2_agent_mix22b_llama370b_parallel_with_critique_by_llama370b_discussion_history_05182024.jsonl --discussion_mode Parallel_with_Critique --max_workers 4 --parallel
+
+#host is mistral
+python run.py --scenario Scenario.CollaborativeConsultation --patient_database ./data/patients.json --doctor_database ./data/collaborative_doctors/doctors.json --patient Agent.Patient.GPT --patient_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --reporter Agent.Reporter.GPT --reporter_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --host Agent.Host.GPT --host_openai_model_name anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1 --number_of_doctors 2 --max_discussion_turn 4 --save_path outputs/collaboration_history_iiyi/doctors_2_agent_mix22b_llama370b_parallel_with_critique_by_mix22b_discussion_history_05182024.jsonl --discussion_mode Parallel_with_Critique --max_workers 4 --parallel
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>p26 approach<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+############### Doctor 1
+##any scale
+python run.py --patient_database ./data/patients.json --doctor Agent.Doctor.GPT --doctor_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --patient Agent.Patient.GPT --patient_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --reporter Agent.Reporter.GPT --reporter_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --save_path ./outputs/dialog_history_iiyi/dialog_history_any_llama370b_p26_EN.jsonl --max_conversation_turn 100 --translate True --approach p26 --patientset 1 --max_workers 4 --parallel 
+
+############### Doctor 2
+##any scale
+python run.py --patient_database ./data/patients.json --doctor Agent.Doctor.GPT --doctor_openai_model_name anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1 --patient Agent.Patient.GPT --patient_openai_model_name anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1 --reporter Agent.Reporter.GPT --reporter_openai_model_name anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1 --save_path ./outputs/dialog_history_iiyi/dialog_history_any_mix22b_p26_EN.jsonl --max_conversation_turn 100 --translate True --approach p26 --patientset 100 --max_workers 4 --parallel
+
+############## evaluatiuon
+python eval_litellm.py --model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --evaluation_platform dialog --eval_save_filepath ../outputs/evaluation/evaluation_iiyi_mix22b_p26.jsonl --reference_diagnosis_filepath ../data/patients.json --doctor_names mix22b
+
+python eval_litellm.py --model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --evaluation_platform dialog --eval_save_filepath ../outputs/evaluation/evaluation_iiyi_llama370b_p26.jsonl --reference_diagnosis_filepath ../data/patients.json --doctor_names llama370b
+
+############## show evalutation
+python eval_show_ss.py --interactive_evaluation_result_path ../outputs/evaluation/evaluation_iiyi_mix22b_p26.jsonl
+python eval_show_ss.py --interactive_evaluation_result_path ../outputs/evaluation/evaluation_iiyi_llama370b_p26.jsonl
+
+#host is llama3
+python run.py --scenario Scenario.CollaborativeConsultation --patient_database ./data/patients.json --doctor_database ./data/collaborative_doctors/doctors_p26.json --patient Agent.Patient.GPT --patient_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --reporter Agent.Reporter.GPT --reporter_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --host Agent.Host.GPT --host_openai_model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --number_of_doctors 2 --max_discussion_turn 4 --save_path ./outputs/collaboration_history_iiyi/doctors_2_agent_mix22b_llama370b_p26_parallel_with_critique_by_llama370b_discussion_history_05212024.jsonl --discussion_mode Parallel_with_Critique --max_workers 4 --parallel --translate True
+
+#host evaluation - base
+python eval_litellm.py --model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --evaluation_platform collaborative_discussion --eval_save_filepath ../outputs/evaluation/evaluation_iiyi_mix22bllama370b_collab_p26_base.jsonl --reference_diagnosis_filepath ../data/patients.json --doctor_names 2_Agent_mix22b_llama370b_Critique --max_workers 4 --parallel
+
+python eval_show_ss.py --interactive_evaluation_result_path ../outputs/evaluation/evaluation_iiyi_mix22bllama370b_collab_p26_base.jsonl
+
+#host evaluation - p26
+python eval_litellm.py --model_name anyscale/meta-llama/Meta-Llama-3-70B-Instruct --evaluation_platform collaborative_discussion --eval_save_filepath ../outputs/evaluation/evaluation_iiyi_mix22bllama370b_collab_p26_p26.jsonl --reference_diagnosis_filepath ../data/patients.json --doctor_names 2_Agent_mix22b_llama370b_Critique --max_workers 4 --parallel
+
+python eval_show_ss.py --interactive_evaluation_result_path ../outputs/evaluation/evaluation_iiyi_mix22bllama370b_collab_p26_p26.jsonl

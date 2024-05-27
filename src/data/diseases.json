@@ -1,0 +1,52 @@
+[
+    {
+        "Top 20 Illnesses/Diagnoses in Internal Medicine": [
+          "Hypertension",
+          "Diabetes Mellitus",
+          "Chronic Kidney Disease",
+          "Hyperlipidemia",
+          "Coronary Artery Disease",
+          "Chronic Obstructive Pulmonary Disease (COPD)",
+          "Congestive Heart Failure",
+          "Atrial Fibrillation",
+          "Asthma",
+          "Gastroesophageal Reflux Disease (GERD)",
+          "Anemia",
+          "Hypothyroidism",
+          "Acute Kidney Injury",
+          "Pneumonia",
+          "Cerebrovascular Accident (Stroke)",
+          "Deep Vein Thrombosis (DVT)",
+          "Pulmonary Embolism",
+          "Hepatitis",
+          "Peptic Ulcer Disease",
+          "Rheumatoid Arthritis"
+        ]
+    },
+    {
+        "Top 20 Illnesses/Diagnoses in Family Medicine": [
+            "Hypertension",
+            "Diabetes Mellitus",
+            "Hyperlipidemia",
+            "Upper Respiratory Infections",
+            "Acute Bronchitis",
+            "Asthma",
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Depression",
+            "Anxiety Disorders",
+            "Obesity",
+            "Osteoarthritis",
+            "Back Pain",
+            "Gastroesophageal Reflux Disease (GERD)",
+            "Hypothyroidism",
+            "Allergic Rhinitis",
+            "Urinary Tract Infections (UTIs)",
+            "Acute Sinusitis",
+            "Chronic Kidney Disease",
+            "Coronary Artery Disease",
+            "Heart Failure"
+        ]
+    }
+    
+      
+]

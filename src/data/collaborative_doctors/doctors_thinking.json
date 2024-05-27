@@ -1,0 +1,18 @@
+[
+    {
+        "doctor_name": "Agent.Doctor.LiteLLM",
+        "doctor_openai_model_name": "anyscale/mistralai/Mixtral-8x22B-Instruct-v0.1",
+        "diagnosis_filepath": "./outputs/dialog_history_iiyi/dialog_history_any_mix22b_p26_pasthistory_10convo_thinking_EN.jsonl", 
+        "evaluation_filepath": "outputs/evaluation/evaluation_iiyi_p26.jsonl",
+        "doctor_key": null,
+        "name": "mix22b_thinkingy"
+    },    
+    {
+        "doctor_name": "Agent.Doctor.LiteLLM",
+        "doctor_openai_model_name": "anyscale/meta-llama/Meta-Llama-3-70B-Instruct",
+        "diagnosis_filepath": "./outputs/dialog_history_iiyi/dialog_history_any_llama370b_pasthistory_4convo_thinking_EN.jsonl", 
+        "evaluation_filepath": "outputs/evaluation/evaluation_iiyi_p26.jsonl",
+        "doctor_key": null,
+        "name": "llama70b_thinking"
+    }
+]

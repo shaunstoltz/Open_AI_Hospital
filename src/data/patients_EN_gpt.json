@@ -1,0 +1,573 @@
+[
+    {
+        "id": 10001,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 65 years\nOccupation: Retired Teacher\n",
+            "chief_complaint": "Headaches and dizziness for 3 days.\n",
+            "current_medical_history": "The patient reports experiencing persistent headaches and occasional dizziness for the past 3 days. No symptoms of fever, nausea, or vomiting. The patient feels fatigued but maintains a good appetite and normal bowel movements and urination.\n",
+            "past_medical_history": "Generally in good health, with no history of infectious diseases. Diagnosed with hypertension 10 years ago, with a maximum recorded blood pressure of 190/120 mmHg, controlled with amlodipine and lisinopril. Denies history of heart disease, diabetes, other chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.8°C\n- Pulse: 85 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 182/115 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n  - Normal electrical axis\n- Imaging:\n  - Chest X-ray: normal\n  - Echocardiogram: mild left ventricular hypertrophy\n",
+            "preliminary_diagnosis": "Grade 2 hypertension, high risk\n",
+            "diagnostic_basis": "1. History of long-term hypertension.\n2. Symptoms of headaches and dizziness.\n3. Physical examination findings of high blood pressure and mild left ventricular hypertrophy.\n4. Auxiliary examinations show elevated LDL cholesterol, left ventricular hypertrophy on ECG, and echocardiogram.\n",
+            "differential_diagnosis": "1. Secondary hypertension: No history of renal disease or endocrine disorders.\n2. Migraine: Headaches present, but no associated aura or other typical migraine features.\n3. Transient ischemic attack: No focal neurological deficits observed.\n",
+            "diagnosis_and_treatment_process": "The patient was started on a higher dose of amlodipine and lisinopril. Advised lifestyle modifications including a low-sodium diet, regular exercise, and smoking cessation. After 1 week of treatment, the patient's blood pressure improved, and the headaches and dizziness resolved.\n",
+            "diagnostic_results": "Grade 2 hypertension, high risk; mild left ventricular hypertrophy\n",
+            "analysis_and_summary": "The patient has a history of hypertension with poor blood pressure control, leading to symptoms of headaches and dizziness. Diagnostic tests confirmed hypertension with target organ damage (left ventricular hypertrophy). Treatment included medication adjustment and lifestyle changes, resulting in improved blood pressure and symptom resolution. Advised to continue medication, monitor blood pressure regularly, follow a low-salt diet, and engage in regular physical activity. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10002,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 58 years\nOccupation: Accountant\n",
+            "chief_complaint": "Persistent fatigue and occasional chest pain for 2 weeks.\n",
+            "current_medical_history": "The patient reports experiencing persistent fatigue and occasional episodes of chest pain, particularly after exertion, for the past 2 weeks. No symptoms of fever, cough, nausea, or vomiting. The patient has a good appetite and normal bowel movements and urination.\n",
+            "past_medical_history": "Generally in good health, with a history of hypertension for 8 years, with a maximum recorded blood pressure of 175/105 mmHg, controlled with losartan and hydrochlorothiazide. Denies history of heart disease, diabetes, other chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 37.0°C\n- Pulse: 90 bpm\n- Respiration: 20 breaths/min\n- Blood pressure: 170/100 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds: S4 gallop, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated total cholesterol and LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n  - ST depression in V5-V6\n- Imaging:\n  - Chest X-ray: normal\n  - Echocardiogram: moderate left ventricular hypertrophy\n  - Stress test: positive for ischemia\n",
+            "preliminary_diagnosis": "Hypertension, high risk; Suspected coronary artery disease\n",
+            "diagnostic_basis": "1. History of long-term hypertension.\n2. Symptoms of fatigue and exertional chest pain.\n3. Physical examination findings of high blood pressure and S4 gallop.\n4. Auxiliary examinations show elevated LDL cholesterol, left ventricular hypertrophy on ECG and echocardiogram, and positive stress test for ischemia.\n",
+            "differential_diagnosis": "1. Angina pectoris: Symptoms and stress test findings suggest ischemic heart disease.\n2. Heart failure: No signs of fluid overload or pulmonary edema.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on a higher dose of losartan and hydrochlorothiazide, and atorvastatin was added for lipid control. Referred to a cardiologist for further evaluation of suspected coronary artery disease. Advised lifestyle modifications including a low-sodium, low-fat diet, regular exercise, and smoking cessation. After 2 weeks of treatment, the patient's blood pressure improved, and the chest pain episodes decreased.\n",
+            "diagnostic_results": "Hypertension, high risk; moderate left ventricular hypertrophy; suspected coronary artery disease\n",
+            "analysis_and_summary": "The patient has a history of poorly controlled hypertension, leading to symptoms of fatigue and exertional chest pain. Diagnostic tests confirmed hypertension with target organ damage (left ventricular hypertrophy) and suspected ischemic heart disease. Treatment included medication adjustment, lipid control, and lifestyle changes, resulting in improved blood pressure and reduction in chest pain episodes. Referred to a cardiologist for further evaluation and management of suspected coronary artery disease. Advised to continue medication, monitor blood pressure regularly, follow a healthy diet, and engage in regular physical activity. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10003,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 50 years\nOccupation: Office Manager\n",
+            "chief_complaint": "Frequent headaches and blurred vision for 1 month.\n",
+            "current_medical_history": "The patient reports frequent headaches and occasional blurred vision over the past month. The headaches are typically located at the back of the head and are described as throbbing. No symptoms of fever, nausea, vomiting, or dizziness. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "The patient has been diagnosed with hypertension for 6 years, with a maximum recorded blood pressure of 160/95 mmHg, currently managed with enalapril. No history of heart disease, diabetes, other chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 82 bpm\n- Respiration: 16 breaths/min\n- Blood pressure: 165/100 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: signs of hypertensive retinopathy\n  - Echocardiogram: mild left ventricular hypertrophy\n",
+            "preliminary_diagnosis": "Grade 2 hypertension, high risk\n",
+            "diagnostic_basis": "1. History of long-term hypertension.\n2. Symptoms of frequent headaches and occasional blurred vision.\n3. Physical examination findings of high blood pressure.\n4. Auxiliary examinations show elevated LDL cholesterol, signs of hypertensive retinopathy on fundoscopy, and mild left ventricular hypertrophy on echocardiogram.\n",
+            "differential_diagnosis": "1. Migraine: Headaches present, but no associated aura or other typical migraine features.\n2. Tension headache: Headaches present, but no significant stress or musculoskeletal findings.\n3. Secondary hypertension: No evidence of renal disease or endocrine disorders.\n",
+            "diagnosis_and_treatment_process": "The patient was started on a higher dose of enalapril and prescribed atorvastatin for lipid control. Advised lifestyle modifications including a low-sodium diet, regular exercise, and smoking cessation. After 2 weeks of treatment, the patient's blood pressure improved, and the frequency of headaches and episodes of blurred vision decreased.\n",
+            "diagnostic_results": "Grade 2 hypertension, high risk; mild left ventricular hypertrophy; hypertensive retinopathy\n",
+            "analysis_and_summary": "The patient has a history of hypertension with poor blood pressure control, leading to symptoms of frequent headaches and occasional blurred vision. Diagnostic tests confirmed hypertension with target organ damage (left ventricular hypertrophy and hypertensive retinopathy). Treatment included medication adjustment, lipid control, and lifestyle changes, resulting in improved blood pressure and reduction in symptoms. Advised to continue medication, monitor blood pressure regularly, follow a low-salt diet, and engage in regular physical activity. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10004,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 62 years\nOccupation: Retired Engineer\n",
+            "chief_complaint": "Shortness of breath and swelling in the legs for 2 weeks.\n",
+            "current_medical_history": "The patient reports experiencing shortness of breath, especially when lying down, and swelling in the legs over the past 2 weeks. No symptoms of fever, cough, chest pain, or palpitations. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Diagnosed with hypertension 12 years ago, with a maximum recorded blood pressure of 180/110 mmHg, controlled with atenolol and hydrochlorothiazide. History of smoking for 30 years, quit 10 years ago. No history of heart disease, diabetes, other chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.5°C\n- Pulse: 92 bpm\n- Respiration: 20 breaths/min\n- Blood pressure: 175/105 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds: S4 gallop, no murmurs.\n- Lungs: bibasilar crackles.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, bilateral pitting edema in the legs.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n  - ST depression in V5-V6\n- Imaging:\n  - Chest X-ray: cardiomegaly, mild pulmonary congestion\n  - Echocardiogram: moderate left ventricular hypertrophy, reduced ejection fraction (45%)\n  - B-type natriuretic peptide (BNP): elevated\n",
+            "preliminary_diagnosis": "Hypertension, high risk; Congestive heart failure\n",
+            "diagnostic_basis": "1. History of long-term hypertension.\n2. Symptoms of shortness of breath and leg swelling.\n3. Physical examination findings of high blood pressure, S4 gallop, and bilateral pitting edema.\n4. Auxiliary examinations show elevated LDL cholesterol, left ventricular hypertrophy on ECG and echocardiogram, cardiomegaly and pulmonary congestion on chest X-ray, and elevated BNP.\n",
+            "differential_diagnosis": "1. Chronic obstructive pulmonary disease (COPD): No history of chronic cough or significant smoking history; normal lung function tests previously.\n2. Nephrotic syndrome: No significant proteinuria or hypoalbuminemia.\n3. Deep vein thrombosis (DVT): Bilateral leg swelling without local pain or redness.\n",
+            "diagnosis_and_treatment_process": "The patient was started on furosemide for fluid management and spironolactone for heart failure. Atenolol dose was adjusted and losartan was added for better blood pressure control. Advised lifestyle modifications including a low-sodium, low-fat diet, regular exercise, and smoking cessation. After 2 weeks of treatment, the patient's blood pressure improved, and the symptoms of shortness of breath and leg swelling reduced.\n",
+            "diagnostic_results": "Hypertension, high risk; moderate left ventricular hypertrophy; congestive heart failure\n",
+            "analysis_and_summary": "The patient has a history of poorly controlled hypertension, leading to symptoms of shortness of breath and leg swelling. Diagnostic tests confirmed hypertension with target organ damage (left ventricular hypertrophy) and congestive heart failure. Treatment included medication adjustment, fluid management, and lifestyle changes, resulting in improved blood pressure and reduction in symptoms. Advised to continue medication, monitor blood pressure regularly, follow a healthy diet, and engage in regular physical activity. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10005,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 45 years\nOccupation: Marketing Manager\n",
+            "chief_complaint": "Persistent headaches and lightheadedness for 3 weeks.\n",
+            "current_medical_history": "The patient reports persistent headaches, primarily in the morning, and episodes of lightheadedness over the past 3 weeks. She also experiences occasional palpitations but denies any chest pain, shortness of breath, or visual disturbances. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Diagnosed with hypertension 5 years ago, with a maximum recorded blood pressure of 160/100 mmHg, currently managed with lisinopril. No history of heart disease, diabetes, other chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.6°C\n- Pulse: 88 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 158/98 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n  - Occasional premature ventricular contractions\n- Imaging:\n  - Chest X-ray: normal\n  - Echocardiogram: normal\n  - Fundoscopy: signs of mild hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 1 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. History of long-term hypertension.\n2. Symptoms of persistent headaches and lightheadedness.\n3. Physical examination findings of elevated blood pressure.\n4. Auxiliary examinations show elevated LDL cholesterol, occasional premature ventricular contractions on ECG, and signs of mild hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Migraine: Headaches present, but no associated aura or other typical migraine features.\n2. Anxiety: Palpitations present, but no significant anxiety symptoms or history.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on a higher dose of lisinopril and prescribed atorvastatin for lipid control. Advised lifestyle modifications including a low-sodium diet, regular exercise, stress management, and smoking cessation. After 2 weeks of treatment, the patient's blood pressure improved, and the frequency and severity of headaches and lightheadedness decreased.\n",
+            "diagnostic_results": "Grade 1 hypertension, moderate risk; mild hypertensive retinopathy\n",
+            "analysis_and_summary": "The patient has a history of hypertension with symptoms of persistent headaches and lightheadedness. Diagnostic tests confirmed hypertension with mild hypertensive retinopathy and elevated LDL cholesterol. Treatment included medication adjustment, lipid control, and lifestyle changes, resulting in improved blood pressure and reduction in symptoms. Advised to continue medication, monitor blood pressure regularly, follow a healthy diet, and engage in regular physical activity. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10006,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 52 years\nOccupation: School Teacher\n",
+            "chief_complaint": "Frequent headaches and fatigue for 2 months.\n",
+            "current_medical_history": "The patient reports experiencing frequent headaches, mostly in the morning, and constant fatigue over the past 2 months. No symptoms of fever, nausea, vomiting, or visual disturbances. The patient has a good appetite and normal bowel movements and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.8°C\n- Pulse: 78 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 165/95 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: mild signs of hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 1 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of frequent headaches and fatigue.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and mild signs of hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Migraine: Headaches present, but no associated aura or other typical migraine features.\n2. Chronic fatigue syndrome: Fatigue present, but no other associated symptoms.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on lisinopril for blood pressure control and advised lifestyle modifications including a low-sodium diet, regular exercise, and stress management. After 2 weeks of treatment, the patient's blood pressure improved, and the frequency and severity of headaches decreased.\n",
+            "diagnostic_results": "Grade 1 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of headaches and fatigue. Diagnostic tests confirmed hypertension with mild hypertensive retinopathy. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10007,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 48 years\nOccupation: Construction Worker\n",
+            "chief_complaint": "Persistent dizziness and palpitations for 1 month.\n",
+            "current_medical_history": "The patient reports persistent dizziness and occasional palpitations over the past month. No symptoms of chest pain, shortness of breath, or syncope. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 85 bpm\n- Respiration: 20 breaths/min\n- Blood pressure: 170/100 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds: S4 gallop, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n- Imaging:\n  - Chest X-ray: normal\n  - Echocardiogram: mild left ventricular hypertrophy\n",
+            "preliminary_diagnosis": "Grade 2 hypertension, high risk\n",
+            "diagnostic_basis": "1. Symptoms of dizziness and palpitations.\n2. Physical examination findings of elevated blood pressure and S4 gallop.\n3. Auxiliary examinations show elevated LDL cholesterol, left ventricular hypertrophy on ECG and echocardiogram.\n",
+            "differential_diagnosis": "1. Anxiety: Palpitations present, but no significant anxiety symptoms or history.\n2. Cardiac arrhythmia: Palpitations present, but no evidence of arrhythmia on ECG.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on atenolol and hydrochlorothiazide for blood pressure control. Advised lifestyle modifications including a low-sodium diet, regular exercise, and smoking cessation. After 2 weeks of treatment, the patient's blood pressure improved, and the symptoms of dizziness and palpitations decreased.\n",
+            "diagnostic_results": "Grade 2 hypertension, high risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of dizziness and palpitations. Diagnostic tests confirmed hypertension with mild left ventricular hypertrophy. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10008,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 60 years\nOccupation: Librarian\n",
+            "chief_complaint": "Occasional shortness of breath and swollen ankles for 3 weeks.\n",
+            "current_medical_history": "The patient reports occasional shortness of breath, especially when climbing stairs, and swollen ankles over the past 3 weeks. No symptoms of chest pain, cough, or palpitations. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.6°C\n- Pulse: 80 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 160/95 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs: bibasilar crackles.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, bilateral pitting edema in the ankles.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n- Imaging:\n  - Chest X-ray: mild pulmonary congestion\n  - Echocardiogram: mild left ventricular hypertrophy, normal ejection fraction\n",
+            "preliminary_diagnosis": "Grade 2 hypertension, high risk\n",
+            "diagnostic_basis": "1. Symptoms of shortness of breath and swollen ankles.\n2. Physical examination findings of elevated blood pressure and bilateral pitting edema.\n3. Auxiliary examinations show elevated LDL cholesterol, left ventricular hypertrophy on ECG and echocardiogram, and mild pulmonary congestion on chest X-ray.\n",
+            "differential_diagnosis": "1. Chronic heart failure: Symptoms and signs suggest heart failure, confirmed by echocardiogram.\n2. Chronic kidney disease: No significant renal function impairment on metabolic panel.\n3. Deep vein thrombosis: Bilateral leg swelling without local pain or redness.\n",
+            "diagnosis_and_treatment_process": "The patient was started on furosemide for fluid management and losartan for blood pressure control. Advised lifestyle modifications including a low-sodium diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood pressure improved, and the symptoms of shortness of breath and ankle swelling decreased.\n",
+            "diagnostic_results": "Grade 2 hypertension, high risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of shortness of breath and swollen ankles. Diagnostic tests confirmed hypertension with mild left ventricular hypertrophy and pulmonary congestion. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10009,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 55 years\nOccupation: Chef\n",
+            "chief_complaint": "Persistent fatigue and occasional nosebleeds for 1 month.\n",
+            "current_medical_history": "The patient reports persistent fatigue and occasional nosebleeds over the past month. No symptoms of headaches, chest pain, or dizziness. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 78 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 165/100 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n- Imaging:\n  - Chest X-ray: normal\n  - Echocardiogram: mild left ventricular hypertrophy\n",
+            "preliminary_diagnosis": "Grade 2 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of fatigue and occasional nosebleeds.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and mild left ventricular hypertrophy on echocardiogram.\n",
+            "differential_diagnosis": "1. Chronic fatigue syndrome: Fatigue present, but no other associated symptoms.\n2. Anemia: Normal complete blood count.\n3. Coagulopathy: Occasional nosebleeds, but no other bleeding tendencies or abnormal coagulation profile.\n",
+            "diagnosis_and_treatment_process": "The patient was started on enalapril for blood pressure control and atorvastatin for lipid control. Advised lifestyle modifications including a low-sodium diet, regular exercise, and stress management. After 2 weeks of treatment, the patient's blood pressure improved, and the frequency of nosebleeds decreased.\n",
+            "diagnostic_results": "Grade 2 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of fatigue and occasional nosebleeds. Diagnostic tests confirmed hypertension with mild left ventricular hypertrophy. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10010,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 63 years\nOccupation: Retired Nurse\n",
+            "chief_complaint": "Persistent headaches and blurred vision for 2 weeks.\n",
+            "current_medical_history": "The patient reports persistent headaches, mostly in the morning, and episodes of blurred vision over the past 2 weeks. No symptoms of nausea, vomiting, or dizziness. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.8°C\n- Pulse: 82 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 170/105 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n  - Occasional premature ventricular contractions\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: signs of hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 2 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of headaches and blurred vision.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and signs of hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Migraine: Headaches present, but no associated aura or other typical migraine features.\n2. Tension headache: Headaches present, but no significant stress or musculoskeletal findings.\n3. Secondary hypertension: No evidence of renal disease or endocrine disorders.\n",
+            "diagnosis_and_treatment_process": "The patient was started on lisinopril for blood pressure control and advised lifestyle modifications including a low-sodium diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood pressure improved, and the frequency and severity of headaches decreased.\n",
+            "diagnostic_results": "Grade 2 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of headaches and blurred vision. Diagnostic tests confirmed hypertension with signs of hypertensive retinopathy. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10011,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 54 years\nOccupation: Truck Driver\n",
+            "chief_complaint": "Persistent headaches and chest tightness for 3 weeks.\n",
+            "current_medical_history": "The patient reports persistent headaches, particularly in the evening, and chest tightness over the past 3 weeks. No symptoms of nausea, vomiting, or dizziness. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.9°C\n- Pulse: 88 bpm\n- Respiration: 20 breaths/min\n- Blood pressure: 168/102 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds: S4 gallop, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n- Imaging:\n  - Chest X-ray: normal\n  - Echocardiogram: mild left ventricular hypertrophy\n",
+            "preliminary_diagnosis": "Grade 2 hypertension, high risk\n",
+            "diagnostic_basis": "1. Symptoms of headaches and chest tightness.\n2. Physical examination findings of elevated blood pressure and S4 gallop.\n3. Auxiliary examinations show elevated LDL cholesterol, left ventricular hypertrophy on ECG and echocardiogram.\n",
+            "differential_diagnosis": "1. Anxiety: Chest tightness present, but no significant anxiety symptoms or history.\n2. Cardiac arrhythmia: Chest tightness present, but no evidence of arrhythmia on ECG.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on amlodipine for blood pressure control and advised lifestyle modifications including a low-sodium diet, regular exercise, and smoking cessation. After 2 weeks of treatment, the patient's blood pressure improved, and the symptoms of headaches and chest tightness decreased.\n",
+            "diagnostic_results": "Grade 2 hypertension, high risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of headaches and chest tightness. Diagnostic tests confirmed hypertension with mild left ventricular hypertrophy. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10012,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 46 years\nOccupation: Software Developer\n",
+            "chief_complaint": "Frequent headaches and blurred vision for 1 month.\n",
+            "current_medical_history": "The patient reports frequent headaches, especially in the morning, and episodes of blurred vision over the past month. No symptoms of fever, nausea, vomiting, or dizziness. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 80 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 162/98 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: mild hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 1 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of frequent headaches and blurred vision.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and mild hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Migraine: Headaches present, but no associated aura or other typical migraine features.\n2. Chronic fatigue syndrome: Fatigue present, but no other associated symptoms.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on lisinopril for blood pressure control and advised lifestyle modifications including a low-sodium diet, regular exercise, and stress management. After 2 weeks of treatment, the patient's blood pressure improved, and the frequency and severity of headaches decreased.\n",
+            "diagnostic_results": "Grade 1 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of headaches and blurred vision. Diagnostic tests confirmed hypertension with mild hypertensive retinopathy. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10013,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 50 years\nOccupation: Bank Teller\n",
+            "chief_complaint": "Persistent fatigue and occasional dizziness for 1 month.\n",
+            "current_medical_history": "The patient reports persistent fatigue and occasional dizziness over the past month. No symptoms of headaches, chest pain, or shortness of breath. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 82 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 160/95 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: mild hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 1 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of fatigue and dizziness.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and mild hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Chronic fatigue syndrome: Fatigue present, but no other associated symptoms.\n2. Anemia: Normal complete blood count.\n3. Secondary hypertension: No evidence of renal disease or endocrine disorders.\n",
+            "diagnosis_and_treatment_process": "The patient was started on lisinopril for blood pressure control and advised lifestyle modifications including a low-sodium diet, regular exercise, and stress management. After 2 weeks of treatment, the patient's blood pressure improved, and the symptoms of fatigue and dizziness decreased.\n",
+            "diagnostic_results": "Grade 1 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of fatigue and dizziness. Diagnostic tests confirmed hypertension with mild hypertensive retinopathy. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10014,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 50 years\nOccupation: Bank Teller\n",
+            "chief_complaint": "Persistent fatigue and occasional dizziness for 1 month.\n",
+            "current_medical_history": "The patient reports persistent fatigue and occasional dizziness over the past month. No symptoms of headaches, chest pain, or shortness of breath. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 82 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 160/95 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: mild hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 1 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of fatigue and dizziness.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and mild hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Chronic fatigue syndrome: Fatigue present, but no other associated symptoms.\n2. Anemia: Normal complete blood count.\n3. Secondary hypertension: No evidence of renal disease or endocrine disorders.\n",
+            "diagnosis_and_treatment_process": "The patient was started on lisinopril for blood pressure control and advised lifestyle modifications including a low-sodium diet, regular exercise, and stress management. After 2 weeks of treatment, the patient's blood pressure improved, and the symptoms of fatigue and dizziness decreased.\n",
+            "diagnostic_results": "Grade 1 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of fatigue and dizziness. Diagnostic tests confirmed hypertension with mild hypertensive retinopathy. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10015,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 61 years\nOccupation: Retired Military Officer\n",
+            "chief_complaint": "Persistent headaches and occasional shortness of breath for 3 weeks.\n",
+            "current_medical_history": "The patient reports persistent headaches, mostly in the morning, and occasional shortness of breath over the past 3 weeks. No symptoms of chest pain, palpitations, or dizziness. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "Generally in good health, with no significant past medical history. Denies history of chronic diseases, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.8°C\n- Pulse: 84 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 165/100 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n- Imaging:\n  - Chest X-ray: normal\n  - Echocardiogram: mild left ventricular hypertrophy\n",
+            "preliminary_diagnosis": "Grade 2 hypertension, high risk\n",
+            "diagnostic_basis": "1. Symptoms of headaches and shortness of breath.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and left ventricular hypertrophy on ECG and echocardiogram.\n",
+            "differential_diagnosis": "1. Chronic obstructive pulmonary disease (COPD): No history of chronic cough or significant smoking history; normal lung function tests previously.\n2. Chronic heart failure: Symptoms and signs suggest heart failure, confirmed by echocardiogram.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on enalapril for blood pressure control and atorvastatin for lipid control. Advised lifestyle modifications including a low-sodium diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood pressure improved, and the symptoms of headaches and shortness of breath decreased.\n",
+            "diagnostic_results": "Grade 2 hypertension, high risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of headaches and shortness of breath. Diagnostic tests confirmed hypertension with mild left ventricular hypertrophy. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10016,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 57 years\nOccupation: Teacher\n",
+            "chief_complaint": "Persistent headaches and lightheadedness for 1 month.\n",
+            "current_medical_history": "The patient reports experiencing persistent headaches and lightheadedness over the past month. She also experiences occasional palpitations. No symptoms of chest pain, nausea, or dizziness. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of hyperlipidemia for 3 years, managed with diet and exercise. No history of hypertension, diabetes, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.8°C\n- Pulse: 86 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 160/100 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: mild hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 1 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of persistent headaches and lightheadedness.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and mild hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Hyperlipidemia: Known condition, but not directly causing current symptoms.\n2. Anxiety: Palpitations present, but no significant anxiety symptoms or history.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on lisinopril for blood pressure control and advised to continue lifestyle modifications for hyperlipidemia, including a low-sodium diet, regular exercise, and stress management. After 2 weeks of treatment, the patient's blood pressure improved, and the frequency and severity of headaches decreased.\n",
+            "diagnostic_results": "Grade 1 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of persistent headaches and lightheadedness. Diagnostic tests confirmed hypertension with mild hypertensive retinopathy. Treatment included medication and continued lifestyle modifications, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10017,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 65 years\nOccupation: Retired Mechanic\n",
+            "chief_complaint": "Shortness of breath and swollen ankles for 3 weeks.\n",
+            "current_medical_history": "The patient reports experiencing shortness of breath, especially when lying down, and swollen ankles over the past 3 weeks. No symptoms of chest pain or palpitations. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of chronic obstructive pulmonary disease (COPD) for 5 years, managed with inhalers. No history of hypertension, diabetes, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.5°C\n- Pulse: 90 bpm\n- Respiration: 20 breaths/min\n- Blood pressure: 170/105 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds: S4 gallop, no murmurs.\n- Lungs: bibasilar crackles.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, bilateral pitting edema in the ankles.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Left ventricular hypertrophy\n- Imaging:\n  - Chest X-ray: mild pulmonary congestion\n  - Echocardiogram: mild left ventricular hypertrophy, normal ejection fraction\n",
+            "preliminary_diagnosis": "Grade 2 hypertension, high risk\n",
+            "diagnostic_basis": "1. Symptoms of shortness of breath and swollen ankles.\n2. Physical examination findings of elevated blood pressure and bilateral pitting edema.\n3. Auxiliary examinations show elevated LDL cholesterol, left ventricular hypertrophy on ECG and echocardiogram, and mild pulmonary congestion on chest X-ray.\n",
+            "differential_diagnosis": "1. COPD exacerbation: Known condition, but symptoms suggest heart failure.\n2. Chronic kidney disease: No significant renal function impairment on metabolic panel.\n3. Deep vein thrombosis: Bilateral leg swelling without local pain or redness.\n",
+            "diagnosis_and_treatment_process": "The patient was started on furosemide for fluid management and losartan for blood pressure control. Advised lifestyle modifications including a low-sodium diet, regular exercise, and smoking cessation. After 2 weeks of treatment, the patient's blood pressure improved, and the symptoms of shortness of breath and ankle swelling decreased.\n",
+            "diagnostic_results": "Grade 2 hypertension, high risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of shortness of breath and swollen ankles. Diagnostic tests confirmed hypertension with mild left ventricular hypertrophy and pulmonary congestion. Treatment included medication and lifestyle changes, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and follow a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10018,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 49 years\nOccupation: Accountant\n",
+            "chief_complaint": "Persistent headaches and blurred vision for 2 weeks.\n",
+            "current_medical_history": "The patient reports persistent headaches, mostly in the morning, and episodes of blurred vision over the past 2 weeks. No symptoms of nausea, vomiting, or dizziness. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of obesity for 10 years, managed with diet and exercise. No history of hypertension, diabetes, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.6°C\n- Pulse: 84 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 165/98 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n  - Occasional premature ventricular contractions\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: signs of hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 1 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of headaches and blurred vision.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and signs of hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Migraine: Headaches present, but no associated aura or other typical migraine features.\n2. Tension headache: Headaches present, but no significant stress or musculoskeletal findings.\n3. Secondary hypertension: No evidence of renal disease or endocrine disorders.\n",
+            "diagnosis_and_treatment_process": "The patient was started on lisinopril for blood pressure control and advised to continue lifestyle modifications for obesity, including a low-sodium diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood pressure improved, and the frequency and severity of headaches decreased.\n",
+            "diagnostic_results": "Grade 1 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of headaches and blurred vision. Diagnostic tests confirmed hypertension with signs of hypertensive retinopathy. Treatment included medication and continued lifestyle modifications, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10019,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 62 years\nOccupation: Retired Salesman\n",
+            "chief_complaint": "Persistent headaches and fatigue for 1 month.\n",
+            "current_medical_history": "The patient reports persistent headaches and constant fatigue over the past month. No symptoms of chest pain, shortness of breath, or dizziness. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of type 2 diabetes mellitus for 8 years, managed with metformin. No history of hypertension, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 80 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 158/95 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n  - Hemoglobin A1c: 7.8%\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: mild hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 1 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of persistent headaches and fatigue.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and mild hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Type 2 diabetes: Known condition, but not directly causing current symptoms.\n2. Chronic fatigue syndrome: Fatigue present, but no other associated symptoms.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on losartan for blood pressure control and advised to continue lifestyle modifications for diabetes management, including a low-sodium diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood pressure improved, and the frequency and severity of headaches decreased.\n",
+            "diagnostic_results": "Grade 1 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of headaches and fatigue. Diagnostic tests confirmed hypertension with mild hypertensive retinopathy. Treatment included medication and continued lifestyle modifications, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10020,
+        "creator": "gpt4o",
+        "disease": "hypertension",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 55 years\nOccupation: Administrative Assistant\n",
+            "chief_complaint": "Persistent fatigue and occasional dizziness for 1 month.\n",
+            "current_medical_history": "The patient reports persistent fatigue and occasional dizziness over the past month. No symptoms of chest pain, headaches, or shortness of breath. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of hyperlipidemia for 4 years, managed with atorvastatin. No history of hypertension, diabetes, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.6°C\n- Pulse: 82 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 165/100 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: normal\n  - Lipid profile: elevated LDL cholesterol\n- ECG:\n  - Sinus rhythm\n  - Normal electrical axis\n- Imaging:\n  - Chest X-ray: normal\n  - Fundoscopy: mild hypertensive retinopathy\n",
+            "preliminary_diagnosis": "Grade 1 hypertension, moderate risk\n",
+            "diagnostic_basis": "1. Symptoms of fatigue and occasional dizziness.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated LDL cholesterol and mild hypertensive retinopathy on fundoscopy.\n",
+            "differential_diagnosis": "1. Hyperlipidemia: Known condition, but not directly causing current symptoms.\n2. Chronic fatigue syndrome: Fatigue present, but no other associated symptoms.\n3. Anemia: Normal complete blood count.\n",
+            "diagnosis_and_treatment_process": "The patient was started on enalapril for blood pressure control and advised to continue lifestyle modifications for hyperlipidemia management, including a low-sodium diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood pressure improved, and the symptoms of fatigue and dizziness decreased.\n",
+            "diagnostic_results": "Grade 1 hypertension, moderate risk\n",
+            "analysis_and_summary": "The patient was diagnosed with hypertension for the first time, presenting with symptoms of fatigue and dizziness. Diagnostic tests confirmed hypertension with mild hypertensive retinopathy. Treatment included medication and continued lifestyle modifications, resulting in improved blood pressure and symptom relief. Advised to continue medication, monitor blood pressure regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10021,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 45 years\nOccupation: Office Manager\n",
+            "chief_complaint": "Increased thirst and frequent urination for 2 months.\n",
+            "current_medical_history": "The patient reports experiencing increased thirst and frequent urination over the past 2 months. She also mentions feeling fatigued and experiencing unexplained weight loss. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of hypertension for 3 years, managed with lisinopril. No history of diabetes, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 88 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 140/90 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 180 mg/dL)\n  - HbA1c: 8.2%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of increased thirst, frequent urination, fatigue, and weight loss.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of thirst and urination decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of increased thirst, frequent urination, and fatigue. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10022,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 50 years\nOccupation: Sales Representative\n",
+            "chief_complaint": "Blurry vision and fatigue for 1 month.\n",
+            "current_medical_history": "The patient reports experiencing blurry vision and persistent fatigue over the past month. He also mentions increased thirst and frequent urination. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of obesity for 10 years, managed with diet and exercise. No history of diabetes, hypertension, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.6°C\n- Pulse: 82 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 130/85 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 190 mg/dL)\n  - HbA1c: 8.5%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of blurry vision, fatigue, increased thirst, and frequent urination.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of blurry vision and fatigue decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of blurry vision, fatigue, and increased thirst. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10023,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 60 years\nOccupation: Retired Nurse\n",
+            "chief_complaint": "Increased thirst and unexplained weight loss for 2 months.\n",
+            "current_medical_history": "The patient reports experiencing increased thirst and unexplained weight loss over the past 2 months. She also mentions feeling fatigued and having frequent urination. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of hypertension for 5 years, managed with amlodipine. No history of diabetes, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.8°C\n- Pulse: 85 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 135/90 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 195 mg/dL)\n  - HbA1c: 8.7%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of increased thirst, unexplained weight loss, fatigue, and frequent urination.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of thirst and weight loss decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of increased thirst, weight loss, and fatigue. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10024,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 52 years\nOccupation: IT Specialist\n",
+            "chief_complaint": "Frequent urination and increased hunger for 1 month.\n",
+            "current_medical_history": "The patient reports experiencing frequent urination and increased hunger over the past month. He also mentions feeling fatigued and having blurry vision. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of hyperlipidemia for 2 years, managed with diet and atorvastatin. No history of diabetes, hypertension, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 80 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 128/82 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 185 mg/dL)\n  - HbA1c: 8.3%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of frequent urination, increased hunger, fatigue, and blurry vision.\n2. Physical examination findings of normal blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of frequent urination and hunger decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of frequent urination, increased hunger, and fatigue. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10025,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 58 years\nOccupation: Librarian\n",
+            "chief_complaint": "Increased thirst and frequent urination for 3 months.\n",
+            "current_medical_history": "The patient reports experiencing increased thirst and frequent urination over the past 3 months. She also mentions feeling tired and having unexplained weight loss. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of osteoarthritis for 6 years, managed with NSAIDs. No history of diabetes, hypertension, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.6°C\n- Pulse: 78 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 132/85 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 200 mg/dL)\n  - HbA1c: 9.0%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of increased thirst, frequent urination, fatigue, and weight loss.\n2. Physical examination findings of normal blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of thirst and urination decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of increased thirst, frequent urination, and fatigue. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10026,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 55 years\nOccupation: Chef\n",
+            "chief_complaint": "Increased thirst and frequent urination for 2 months.\n",
+            "current_medical_history": "The patient reports experiencing increased thirst and frequent urination over the past 2 months. He also mentions feeling fatigued and experiencing unexplained weight loss. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of hypertension for 4 years, managed with lisinopril. No history of diabetes, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 88 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 138/85 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 175 mg/dL)\n  - HbA1c: 7.9%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of increased thirst, frequent urination, fatigue, and weight loss.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of thirst and urination decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of increased thirst, frequent urination, and fatigue. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10027,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 47 years\nOccupation: School Teacher\n",
+            "chief_complaint": "Blurry vision and fatigue for 1 month.\n",
+            "current_medical_history": "The patient reports experiencing blurry vision and persistent fatigue over the past month. She also mentions increased thirst and frequent urination. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of obesity for 5 years, managed with diet and exercise. No history of diabetes, hypertension, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.6°C\n- Pulse: 82 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 128/80 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 180 mg/dL)\n  - HbA1c: 8.1%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of blurry vision, fatigue, increased thirst, and frequent urination.\n2. Physical examination findings of normal blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of blurry vision and fatigue decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of blurry vision, fatigue, and increased thirst. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10028,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 60 years\nOccupation: Retired Engineer\n",
+            "chief_complaint": "Increased thirst and unexplained weight loss for 2 months.\n",
+            "current_medical_history": "The patient reports experiencing increased thirst and unexplained weight loss over the past 2 months. He also mentions feeling fatigued and having frequent urination. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of hypertension for 6 years, managed with amlodipine. No history of diabetes, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.8°C\n- Pulse: 85 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 135/88 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 190 mg/dL)\n  - HbA1c: 8.4%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of increased thirst, unexplained weight loss, fatigue, and frequent urination.\n2. Physical examination findings of elevated blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of thirst and weight loss decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of increased thirst, weight loss, and fatigue. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10029,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Female\nAge: 53 years\nOccupation: Lawyer\n",
+            "chief_complaint": "Persistent fatigue and frequent urination for 1 month.\n",
+            "current_medical_history": "The patient reports persistent fatigue and frequent urination over the past month. She also mentions increased thirst and blurry vision. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of hyperlipidemia for 3 years, managed with atorvastatin. No history of diabetes, hypertension, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.7°C\n- Pulse: 80 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 130/80 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 182 mg/dL)\n  - HbA1c: 8.2%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of fatigue, frequent urination, increased thirst, and blurry vision.\n2. Physical examination findings of normal blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of fatigue and frequent urination decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of fatigue, frequent urination, increased thirst, and blurry vision. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    },
+    {
+        "id": 10030,
+        "creator": "gpt4o",
+        "disease": "Diabetes Mellitus",
+        "medical_record": {
+            "general_info": "Gender: Male\nAge: 59 years\nOccupation: Architect\n",
+            "chief_complaint": "Persistent thirst and increased urination for 3 months.\n",
+            "current_medical_history": "The patient reports experiencing persistent thirst and increased urination over the past 3 months. He also mentions feeling tired and having unexplained weight loss. No symptoms of fever, nausea, or vomiting. The patient has a good appetite, normal bowel movements, and urination.\n",
+            "past_medical_history": "History of osteoarthritis for 4 years, managed with NSAIDs. No history of diabetes, hypertension, surgeries, trauma, drug or food allergies, and blood transfusions.\n",
+            "physical_examination": "- Temperature: 36.6°C\n- Pulse: 78 bpm\n- Respiration: 18 breaths/min\n- Blood pressure: 130/85 mmHg\n- Clear consciousness, coherent speech, intact memory, and normal cognitive functions.\n- Normal vision and eye movements, no nystagmus.\n- Symmetrical facial sensation, no facial droop.\n- No signs of jugular venous distention or carotid bruits.\n- Heart sounds normal, no murmurs.\n- Lungs clear to auscultation.\n- Abdomen soft, non-tender, no organomegaly.\n- Peripheral pulses palpable, no edema.\n- Neurological examination: muscle strength and sensation intact in all extremities, no focal deficits.\n",
+            "auxiliary_examinations": "- Blood tests:\n  - Complete blood count: normal\n  - Basic metabolic panel: elevated blood glucose (fasting glucose: 200 mg/dL)\n  - HbA1c: 8.9%\n- Urinalysis:\n  - Positive for glucose\n  - No ketones\n",
+            "preliminary_diagnosis": "Type 2 Diabetes Mellitus\n",
+            "diagnostic_basis": "1. Symptoms of persistent thirst, increased urination, fatigue, and weight loss.\n2. Physical examination findings of normal blood pressure.\n3. Auxiliary examinations show elevated fasting blood glucose and HbA1c, positive glucose in urinalysis.\n",
+            "differential_diagnosis": "1. Hyperthyroidism: No symptoms of heat intolerance or tremors.\n2. Diabetes insipidus: No significant electrolyte imbalances, normal serum osmolality.\n3. Chronic kidney disease: No signs of renal function impairment on metabolic panel.\n",
+            "diagnosis_and_treatment_process": "The patient was started on metformin for blood glucose control and advised lifestyle modifications including a low-carbohydrate diet, regular exercise, and weight management. After 2 weeks of treatment, the patient's blood glucose levels improved, and symptoms of thirst and urination decreased.\n",
+            "diagnostic_results": "Type 2 Diabetes Mellitus\n",
+            "analysis_and_summary": "The patient was diagnosed with diabetes mellitus for the first time, presenting with symptoms of persistent thirst, increased urination, and fatigue. Diagnostic tests confirmed diabetes mellitus. Treatment included medication and lifestyle changes, resulting in improved blood glucose levels and symptom relief. Advised to continue medication, monitor blood glucose regularly, and maintain a healthy lifestyle. Scheduled for follow-up in 1 month.\n"
+        }
+    }
+         
+]
